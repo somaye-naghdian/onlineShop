@@ -1,0 +1,261 @@
+2020/06/13 23:43:02-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/13 23:43:03-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/13 23:43:03-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/13 23:43:03-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/13 23:43:03-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/13 23:43:03-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/13 23:43:03-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/13 23:43:03-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/13 23:43:04-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@61c76850] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/13 23:43:04-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/13 23:43:04-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/13 23:44:12-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/13 23:44:13-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/13 23:44:13-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/13 23:44:13-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/13 23:44:13-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/13 23:44:13-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/13 23:44:13-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/13 23:44:14-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/13 23:44:14-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e0f7aad] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/13 23:44:15-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/13 23:44:15-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:12:29-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/14 17:12:32-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/14 17:12:33-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/14 17:12:33-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/14 17:12:33-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/14 17:12:33-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/14 17:12:33-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/14 17:12:33-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/14 17:12:34-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e0f7aad] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/14 17:12:35-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:12:35-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:14:53-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/14 17:14:54-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/14 17:14:55-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/14 17:14:55-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/14 17:14:55-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/14 17:14:55-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/14 17:14:55-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/14 17:14:55-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/14 17:14:55-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@75f65e45] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/14 17:14:55-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:19:08-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/14 17:19:10-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/14 17:19:10-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/14 17:19:10-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/14 17:19:10-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/14 17:19:10-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/14 17:19:10-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/14 17:19:10-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/14 17:19:11-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@61c76850] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/14 17:19:11-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:19:11-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:19:52-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/14 17:19:53-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/14 17:19:53-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/14 17:19:54-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/14 17:19:54-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/14 17:19:54-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/14 17:19:54-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/14 17:19:54-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/14 17:19:55-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@511505e7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/14 17:19:55-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:19:55-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:21:18-WARN-org.hibernate.orm.deprecation:(1782):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:21:22-WARN-org.hibernate.orm.deprecation:(1782):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/14 17:21:32-INFO-service.ProductService:(71):add
+2020/06/14 17:21:48-INFO-service.ProductService:(121):PURCHASE
+2020/06/14 17:21:48-WARN-org.hibernate.engine.jdbc.spi.SqlExceptionHelper:(137):SQL Error: 1062, SQLState: 23000
+2020/06/14 17:21:48-ERROR-org.hibernate.engine.jdbc.spi.SqlExceptionHelper:(142):Duplicate entry '1' for key 'UK_9qy2xh9r4u8999971lplxkbqg'
+2020/06/14 17:21:48-INFO-org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl:(208):HHH000010: On release of batch it still contained JDBC statements
+2020/06/18 19:40:07-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 19:40:11-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 19:40:12-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 19:40:12-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/18 19:40:12-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 19:40:12-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 19:40:12-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 19:40:12-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 19:41:15-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 19:41:16-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 19:41:17-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 19:41:17-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/18 19:41:17-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 19:41:17-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 19:41:17-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 19:41:17-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 19:42:03-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 19:42:04-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 19:42:04-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 19:42:04-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/18 19:42:04-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 19:42:04-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 19:42:04-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 19:42:04-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 19:42:06-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@511505e7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 19:42:07-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 19:42:07-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 19:43:10-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 19:43:11-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 19:43:11-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 19:43:11-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/18 19:43:11-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 19:43:11-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 19:43:11-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 19:43:11-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 19:43:12-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@511505e7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 19:43:13-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:13:39-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:13:41-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:13:42-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:13:42-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/18 20:13:42-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:13:42-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:13:42-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:13:42-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:13:43-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7573e12f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:13:43-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:15:22-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:15:23-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:15:24-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:15:24-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/18 20:15:24-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:15:24-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:15:24-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:15:24-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:15:25-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7573e12f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:15:25-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:18:44-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:18:46-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:18:46-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:18:46-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/18 20:18:46-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:18:46-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:18:46-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:18:47-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:18:48-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15fdd1f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:18:48-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:19:26-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:19:27-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:19:28-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:19:28-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/18 20:19:28-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:19:28-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:19:28-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:19:28-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:19:29-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@15fdd1f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:19:29-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:20:57-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:20:58-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:20:58-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:20:58-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/18 20:20:58-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:20:58-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:20:58-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:20:58-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:20:59-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7573e12f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:21:00-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:23:51-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:23:53-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:23:53-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:23:55-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop3]
+2020/06/18 20:23:55-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:23:55-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:23:56-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:23:56-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:23:57-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7573e12f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:23:57-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:30:36-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:30:37-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:30:38-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:30:38-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/18 20:30:38-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:30:38-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:30:38-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:30:38-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:30:39-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7573e12f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:30:39-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:30:39-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:34:20-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:34:21-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:34:22-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:34:22-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/18 20:34:22-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:34:22-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:34:22-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:34:22-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:34:23-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@511505e7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:34:23-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:34:23-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:35:58-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:35:59-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:35:59-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:35:59-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/18 20:35:59-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:35:59-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:35:59-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:35:59-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:36:00-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e0f7aad] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:36:00-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:36:00-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:36:10-WARN-org.hibernate.orm.deprecation:(1782):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:36:14-WARN-org.hibernate.orm.deprecation:(1782):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:36:30-INFO-service.ProductService:(71):add
+2020/06/18 20:36:40-INFO-service.ProductService:(121):PURCHASE
+2020/06/18 20:36:40-WARN-org.hibernate.engine.jdbc.spi.SqlExceptionHelper:(137):SQL Error: 1062, SQLState: 23000
+2020/06/18 20:36:40-ERROR-org.hibernate.engine.jdbc.spi.SqlExceptionHelper:(142):Duplicate entry '2' for key 'UK_9qy2xh9r4u8999971lplxkbqg'
+2020/06/18 20:36:40-INFO-org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl:(208):HHH000010: On release of batch it still contained JDBC statements
+2020/06/18 20:38:04-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 20:38:05-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 20:38:05-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 20:38:05-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/18 20:38:05-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 20:38:05-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 20:38:05-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 20:38:05-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 20:38:06-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@511505e7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 20:38:07-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 20:38:07-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 21:30:42-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 21:30:44-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 21:30:44-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 21:30:44-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/18 21:30:44-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 21:30:44-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 21:30:44-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 30 (min=1)
+2020/06/18 21:30:44-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 21:30:45-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@511505e7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 21:30:45-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 21:30:46-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 21:35:14-WARN-org.hibernate.orm.deprecation:(1782):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 21:35:25-WARN-org.hibernate.orm.deprecation:(1782):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 21:35:44-INFO-service.ProductService:(71):add
+2020/06/18 21:35:52-INFO-service.ProductService:(121):PURCHASE
+2020/06/18 21:35:52-WARN-org.hibernate.engine.jdbc.spi.SqlExceptionHelper:(137):SQL Error: 1062, SQLState: 23000
+2020/06/18 21:35:52-ERROR-org.hibernate.engine.jdbc.spi.SqlExceptionHelper:(142):Duplicate entry '2' for key 'UK_9qy2xh9r4u8999971lplxkbqg'
+2020/06/18 21:35:52-INFO-org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl:(208):HHH000010: On release of batch it still contained JDBC statements
+2020/06/18 21:44:47-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/18 21:44:49-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/18 21:44:49-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/18 21:44:49-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/18 21:44:49-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/18 21:44:49-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/18 21:44:49-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/18 21:44:49-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/18 21:44:50-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@511505e7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/18 21:44:50-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/18 21:44:50-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/22 20:18:34-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/22 20:19:02-INFO-org.hibernate.Version:(44):HHH000412: Hibernate ORM core version 5.4.15.Final
+2020/06/22 20:19:33-INFO-org.hibernate.annotations.common.Version:(49):HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020/06/22 20:19:33-WARN-org.hibernate.orm.connections.pooling:(72):HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020/06/22 20:19:33-INFO-org.hibernate.orm.connections.pooling:(115):HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/onlineshop2]
+2020/06/22 20:19:33-INFO-org.hibernate.orm.connections.pooling:(124):HHH10001001: Connection properties: {user=root, password=****}
+2020/06/22 20:19:33-INFO-org.hibernate.orm.connections.pooling:(129):HHH10001003: Autocommit mode: false
+2020/06/22 20:19:33-INFO-org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl:(249):HHH000115: Hibernate connection pool size: 20 (min=1)
+2020/06/22 20:19:33-INFO-org.hibernate.dialect.Dialect:(172):HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020/06/22 20:19:34-INFO-org.hibernate.orm.connections.access:(47):HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@511505e7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020/06/22 20:19:35-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2020/06/22 20:19:35-WARN-org.hibernate.orm.deprecation:(1766):HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
