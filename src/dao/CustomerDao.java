@@ -1,40 +1,29 @@
 package dao;
 
-import dto.Customer;
-import java.sql.*;
+import entity.Customer;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class CustomerDao {
-
-    private Connection getConnection() {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/onlineshop"
-                    , "root", null);
-            return connection;
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
+    ConnectionDao connectionDao = new ConnectionDao();
 
     public void insertCustomer(Customer customer) {
         try {
-            Connection connection = getConnection();
-            String query = "insert into customer(name,family,phone,email,address,username,pass) values (?,?,?,?,?,?,?)";
+
+            Connection connection = connectionDao.getConnection();
+            String query = "insert into customer(name,family,phone,email,username,pass,age) values (?,?,?,?,?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, customer.getName());
             preparedStatement.setString(2, customer.getFamily());
             preparedStatement.setString(3, customer.getPhone());
             preparedStatement.setString(4, customer.getEmail());
-            preparedStatement.setString(5, String.valueOf(customer.getAddress()));
-            preparedStatement.setString(6, customer.getUserName());
-            preparedStatement.setString(7, customer.getPassword());
+            preparedStatement.setString(5, customer.getUserName());
+            preparedStatement.setString(6, customer.getPassword());
+            preparedStatement.setInt(7, customer.getAge());
 
             preparedStatement.executeUpdate();
             System.out.println("successfully insert");
@@ -47,7 +36,7 @@ public class CustomerDao {
 
     public boolean searchDuplicateUserName(String username) {
         try {
-            Connection connection = getConnection();
+            Connection connection = connectionDao.getConnection();
             String query = "select username from customer where username = '" + username + "'";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
 
@@ -62,27 +51,73 @@ public class CustomerDao {
     }
 
     public Customer passwordValidation(String username, String password) {
-            try {
-                Connection connection = getConnection();
-                String query = "select name,family,phone,email,address,username,pass" +
-                        " from customer where username = '" + username + "'and pass = '" + password + "'";
-                PreparedStatement preparedStatement = connection.prepareStatement(query);
-                ResultSet resultSet = preparedStatement.executeQuery(query);
-                while (resultSet.next()) {
+        try {
+            Connection connection = connectionDao.getConnection();
+            String query = "select name,family,age,phone,email,username,pass" +
+                    " from customer where username = '" + username + "'and pass = '" + password + "'";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            ResultSet resultSet = preparedStatement.executeQuery(query);
+            while (resultSet.next()) {
 
-                    String name = resultSet.getString("name");
-                    String family = resultSet.getString("family");
-                    String phone = resultSet.getString("phone");
-                    String email = resultSet.getString("email");
-                    String address = resultSet.getString("address");
-                    Customer customer = new Customer(name, family, username, password, phone, email, address);
-                    return customer;
-                }
-                preparedStatement.close();
-                connection.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
+                String name = resultSet.getString("name");
+                String family = resultSet.getString("family");
+                String phone = resultSet.getString("phone");
+                String email = resultSet.getString("email");
+                int age = resultSet.getInt("age");
+                Customer customer = new Customer(name, family, age, username, password, phone, email);
+                return customer;
             }
+            preparedStatement.close();
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         return null;
+    }
+
+    public ArrayList<Customer> getCustomerList() {
+        try {
+            Connection connection = connectionDao.getConnection();
+            String query = "select * from customer ";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            ResultSet resultSet = preparedStatement.executeQuery(query);
+            ArrayList<Customer> customers = new ArrayList<>();
+
+            while (resultSet.next()) {
+                Customer customer = new Customer();
+                customer.setName(resultSet.getString("name"));
+                customer.setFamily(resultSet.getString("family"));
+                customer.setAge(resultSet.getInt("age"));
+                customer.setPhone(resultSet.getString("phone"));
+                customer.setEmail(resultSet.getString("email"));
+                customer.setUserName(resultSet.getString("username"));
+                customer.setPassword(resultSet.getString("pass"));
+                customers.add(customer);
+            }
+            preparedStatement.close();
+            connection.close();
+            return customers;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public boolean searchIfExistCustomer(String customer_username) {
+        try {
+            Connection connection = connectionDao.getConnection();
+            String query = "select name,family,age,phone,email,username,pass" +
+                    " from customer where username = '" + customer_username + "'";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            ResultSet resultSet = preparedStatement.executeQuery(query);
+            if (! resultSet.next()) {
+                return false;
+            }
+            preparedStatement.close();
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return  true;
     }
 }
