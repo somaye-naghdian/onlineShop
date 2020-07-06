@@ -17,7 +17,7 @@ public class ShoppingCart {
     private int itemCount;
     private double totalPrice;
     private int capacity;
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "user_id")
     private User user;
     @OneToMany

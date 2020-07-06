@@ -118,6 +118,7 @@ public class ShoppingCartService {
 
                         shoppingCartDao.insertShoppingCart(shoppingCart);
                         shoppingCartProduct.clear();
+                        shoppingCartDao.deleteFromShoppingCart(shoppingCart);
                         System.out.println(" Thank you ");
                         break;
                     }

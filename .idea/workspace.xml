@@ -3,49 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="31c13172-213c-487f-8f56-01cc27b1d441" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/SignUpTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/log.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/AdminDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/CustomerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/dao/HibernateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/OperationLogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/dao/OperationLogDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/ProductsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/dao/ProductsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/ShoppingCartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/dao/ShoppingCartDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/entity/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/OperationLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/entity/OperationLog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/entity/ShoppingCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/utility/AgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/utility/AgeComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/view/AdminView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/view/AdminView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/view/CustomerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/view/CustomerView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/q-2/view/OnlineShopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/view/OnlineShopTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/q-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/q-2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/AdminDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/CustomerDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/OperationLogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/OperationLogDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ProductsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ShoppingCartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ShoppingCartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/OperationLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/OperationLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entity/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/AgeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/AgeComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CustomerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/OnlineShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/OnlineShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +178,9 @@
       <workItem from="1593926478380" duration="5648000" />
       <workItem from="1593955835776" duration="601000" />
       <workItem from="1593968664710" duration="750000" />
+      <workItem from="1594046643574" duration="1053000" />
+      <workItem from="1594047981376" duration="9000" />
+      <workItem from="1594050128807" duration="958000" />
     </task>
     <servers />
   </component>
@@ -274,22 +237,22 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="409" y="53" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1593887732953" />
-    <state width="1310" height="443" key="GridCell.Tab.0.bottom" timestamp="1593956436685">
+    <state width="1310" height="380" key="GridCell.Tab.0.bottom" timestamp="1594050522852">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1310" height="443" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1593956436685" />
-    <state width="1310" height="443" key="GridCell.Tab.0.center" timestamp="1593956436685">
+    <state width="1310" height="380" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1594050522852" />
+    <state width="1310" height="380" key="GridCell.Tab.0.center" timestamp="1594050522851">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1310" height="443" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1593956436685" />
-    <state width="1310" height="443" key="GridCell.Tab.0.left" timestamp="1593956436685">
+    <state width="1310" height="380" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1594050522851" />
+    <state width="1310" height="380" key="GridCell.Tab.0.left" timestamp="1594050522851">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1310" height="443" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1593956436685" />
-    <state width="1310" height="443" key="GridCell.Tab.0.right" timestamp="1593956436685">
+    <state width="1310" height="380" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1594050522851" />
+    <state width="1310" height="380" key="GridCell.Tab.0.right" timestamp="1594050522851">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1310" height="443" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1593956436685" />
+    <state width="1310" height="380" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1594050522851" />
     <state width="1292" height="338" key="GridCell.Tab.1.bottom" timestamp="1592076037543">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
