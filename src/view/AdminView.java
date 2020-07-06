@@ -1,14 +1,16 @@
 package view;
 
-import dao.AdminDao;
+import dao.UserDao;
+import entity.User;
 import service.AdminService;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class AdminView {
-    AdminDao adminDao = new AdminDao();
+    UserDao userDao = new UserDao();
     AdminService adminService = new AdminService();
+
 
     public void loginAdmin() {
         try {
@@ -17,7 +19,8 @@ public class AdminView {
             String username = scanner.next();
             System.out.println("enter admin password : ");
             String password = scanner.next();
-            if (adminDao.passwordValidation(username, password) != null) {
+             User inputAdmin = userDao.passwordValidation(username, password);
+            if (inputAdmin != null) {
                 System.out.print("enter your request: 1 :: for sort Customers with ages \n " +
                         "\t\t\t        2 :: for customer activity in month ");
                 int adminInput = scanner.nextInt();

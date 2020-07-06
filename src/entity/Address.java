@@ -10,7 +10,7 @@ public class Address {
     private String province, city, street;
     private int zipCode;
     @OneToOne(cascade = CascadeType.ALL)
-    private Customer customer;
+    private User user;
 
 
     public Integer getId() {
@@ -53,14 +53,13 @@ public class Address {
         this.zipCode = zipCode;
     }
 
-    public Customer getCustomer() {
-        return customer;
+    public User getUser() {
+        return user;
     }
 
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
+    public void setUser(User user) {
+        this.user = user;
     }
-
 
     @Override
     public boolean equals(Object o) {
@@ -86,7 +85,7 @@ public class Address {
                 ", city='" + city + '\'' +
                 ", street='" + street + '\'' +
                 ", zipCode=" + zipCode +
-               ", customer=" + customer +
+               ", user=" + user +
                 '}';
     }
 }

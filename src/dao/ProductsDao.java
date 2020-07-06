@@ -15,14 +15,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ProductsDao {
-    Session session = null;
-    Transaction transaction = null;
+
 
     public void showProductsList(String productCategory) {
         List<Products> productsList;
         try {
-            session = HibernateUtil.getSessionFactory().openSession();
-            transaction = session.beginTransaction();
+            Session session = HibernateUtil.getSessionFactory().openSession();
+            Transaction  transaction = session.beginTransaction();
 
             Criteria criteria = session.createCriteria(Products.class);
             criteria.add(Restrictions.eq("category", productCategory));
@@ -37,11 +36,9 @@ public class ProductsDao {
 
             }
             transaction.commit();
-        } catch (HibernateException e) {
-            if (transaction != null) transaction.rollback();
-            e.printStackTrace();
-        } finally {
             session.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
@@ -50,20 +47,18 @@ public class ProductsDao {
         List<Products> productsList = null;
         Products product = null;
         try {
-            session = HibernateUtil.getSessionFactory().openSession();
-            transaction = session.beginTransaction();
+            Session  session = HibernateUtil.getSessionFactory().openSession();
+            Transaction  transaction = session.beginTransaction();
             Query query = session.createQuery("from Products p where p.category=:category and " +
                     "p.name=:name", Products.class);
             query.setParameter("category", category);
             query.setParameter("name", name);
-
             productsList = query.list();
+
             transaction.commit();
-        } catch (HibernateException e) {
-            if (transaction != null) transaction.rollback();
-            e.printStackTrace();
-        } finally {
             session.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
         for (Iterator iterator = productsList.iterator(); iterator.hasNext(); ) {
             product = (Products) iterator.next();
@@ -81,8 +76,8 @@ public class ProductsDao {
         List<Products> productsList = null;
         Products product = null;
         try {
-            session = HibernateUtil.getSessionFactory().openSession();
-            transaction = session.beginTransaction();
+            Session   session = HibernateUtil.getSessionFactory().openSession();
+            Transaction transaction = session.beginTransaction();
             Query query = session.createQuery("from Products p where p.name=:name", Products.class);
             query.setParameter("name", name);
             productsList = query.list();
@@ -92,19 +87,17 @@ public class ProductsDao {
             }
             session.update(product);
             transaction.commit();
-        } catch (HibernateException e) {
-            if (transaction != null) transaction.rollback();
-            e.printStackTrace();
-        } finally {
             session.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
     public void printCategory() {
         Object categories;
         try {
-            session = HibernateUtil.getSessionFactory().openSession();
-            transaction = session.beginTransaction();
+            Session session = HibernateUtil.getSessionFactory().openSession();
+            Transaction transaction = session.beginTransaction();
             Criteria criteria = session.createCriteria(Products.class);
             ProjectionList projectionList = Projections.projectionList();
             projectionList.add(Projections.property("category"));
@@ -113,11 +106,9 @@ public class ProductsDao {
             categories = criteria.list().stream().collect(Collectors.toSet());
             System.out.println(categories);
             transaction.commit();
-        } catch (HibernateException e) {
-            if (transaction != null) transaction.rollback();
-            e.printStackTrace();
-        } finally {
             session.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
     }

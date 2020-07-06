@@ -1,8 +1,10 @@
 package service;
 
 import dao.OperationLogDao;
-import entity.Customer;
+import dao.UserDao;
+import entity.Address;
 import entity.OperationLog;
+import entity.User;
 import utility.AgeComparator;
 
 import java.text.ParseException;
@@ -12,15 +14,23 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 
-import static service.CustomerService.customerDao;
-
 public class AdminService {
+    UserDao userDao = new UserDao();
+    ArrayList<User> adminList = new ArrayList<>();
+
+    public boolean validate(User admin) {
+        System.out.println(adminList);
+        if (adminList.contains(admin)) {
+            return true;
+        }
+        return false;
+    }
 
     public void getCustomerAge() {
-        ArrayList<Customer> customers;
-        customers = customerDao.getCustomerList();
+        ArrayList<User> customers;
+        customers = userDao.getUserList();
         Collections.sort(customers, new AgeComparator());
-        for (Customer customer :
+        for (User customer :
                 customers) {
             System.out.println(customer);
         }
@@ -44,7 +54,33 @@ public class AdminService {
             System.out.print("user: " + operationLog.getAuthority() + " | ");
             System.out.print("operation: " + operationLog.getOperation() + " | ");
             System.out.print("date: " + operationLog.getDate() + " | ");
-            System.out.print("time: " + operationLog.getTime() + "\n");
+
         }
     }
+
+    public void createAdmin() {
+
+        User admin1 = new User();
+        admin1.setName("admin1");
+        admin1.setFamily("admin1");
+        admin1.setEmail("admin1@gmail.com");
+        admin1.setAge(40);
+        admin1.setPhone("125-1458790");
+        admin1.setUserName("admin12345");
+        admin1.setPassword("admin12345");
+        String province = "Tehran";
+        String city = "Tehran";
+        String street = "jamejam";
+        int postalCode = 1234;
+        Address adminAddress = new Address();
+        adminAddress.setProvince(province);
+        adminAddress.setCity(city);
+        adminAddress.setStreet(street);
+        adminAddress.setZipCode(postalCode);
+        admin1.setAddress(adminAddress);
+        userDao.insertUser(admin1);
+        adminList.add(admin1);
+    }
+
+
 }

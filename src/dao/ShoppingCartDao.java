@@ -6,21 +6,18 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 public class ShoppingCartDao {
-    Session session = null;
-    Transaction transaction = null;
+
 
     public void insertShoppingCart(ShoppingCart shoppingCart) {
         try {
-            session = HibernateUtil.getSessionFactory().openSession();
-            transaction = session.beginTransaction();
+          Session  session = HibernateUtil.getSessionFactory().openSession();
+          Transaction  transaction = session.beginTransaction();
             session.saveOrUpdate(shoppingCart);
 
             transaction.commit();
-        } catch (HibernateException e) {
-            if (transaction != null) transaction.rollback();
-            e.printStackTrace();
-        } finally {
             session.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

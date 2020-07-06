@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31c13172-213c-487f-8f56-01cc27b1d441" name="Default Changelist" comment="" />
+    <list default="true" id="31c13172-213c-487f-8f56-01cc27b1d441" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/SignUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/log.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/AdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/CustomerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/dao/HibernateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/OperationLogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/dao/OperationLogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/ProductsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/dao/ProductsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/dao/ShoppingCartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/dao/ShoppingCartDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/entity/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/OperationLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/entity/OperationLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/entity/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/entity/ShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/service/AdminService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/utility/AgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/utility/AgeComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/view/AdminView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/view/AdminView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/view/CustomerView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/view/CustomerView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/q-2/view/OnlineShopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/q-2/view/OnlineShopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/q-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/AdminDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/CustomerDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/OperationLogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/OperationLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ProductsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ShoppingCartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ShoppingCartDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/OperationLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/OperationLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utility/AgeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/AgeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CustomerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/OnlineShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/OnlineShopTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +55,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1d2bk8yW6LiCdzs7kUYo7uh16aG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,25 +79,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../java librarys/testng/aopalliance-1.0.jar!/" />
+    <property name="last_opened_file_path" value="D:/OnlineShop-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\Tamarin\HW17\q-2\src\dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java\Tamarin\HW17\q-2\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.OnlineShopTest">
     <configuration name="OnlineShopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.OnlineShopTest" />
       <module name="q-2" />
@@ -54,9 +116,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignUpTest.testEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="q-2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignUpTest" />
+      <option name="METHOD_NAME" value="testEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.testPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="q-2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignUpTest" />
+      <option name="METHOD_NAME" value="testPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.testPhone" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="q-2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignUpTest" />
+      <option name="METHOD_NAME" value="testPhone" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.testUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="q-2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignUpTest" />
+      <option name="METHOD_NAME" value="testUsername" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.OnlineShopTest" />
+        <item itemvalue="TestNG.SignUpTest.testUsername" />
+        <item itemvalue="TestNG.SignUpTest.testPassword" />
+        <item itemvalue="TestNG.SignUpTest.testEmail" />
+        <item itemvalue="TestNG.SignUpTest.testPhone" />
       </list>
     </recent_temporary>
   </component>
@@ -93,46 +207,89 @@
       <workItem from="1592466993744" duration="2885000" />
       <workItem from="1592491914285" duration="6954000" />
       <workItem from="1592839912141" duration="2900000" />
-      <workItem from="1593190632621" duration="2620000" />
+      <workItem from="1593190632621" duration="3853000" />
+      <workItem from="1593249251521" duration="12830000" />
+      <workItem from="1593344952275" duration="3876000" />
+      <workItem from="1593412333075" duration="808000" />
+      <workItem from="1593523865772" duration="2976000" />
+      <workItem from="1593529788586" duration="411000" />
+      <workItem from="1593537918492" duration="599000" />
+      <workItem from="1593866857859" duration="20537000" />
+      <workItem from="1593926478380" duration="5648000" />
+      <workItem from="1593955835776" duration="601000" />
+      <workItem from="1593968664710" duration="750000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit -m &quot;add unit test&quot;" />
+    <MESSAGE value="add unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add unit test" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593192861234">
+    <state x="174" y="0" key="#Inspections" timestamp="1593259138070">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="440" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720@0.0.1366.720" timestamp="1593192861234" />
+    <state x="174" y="0" key="#Inspections/0.0.1366.720@0.0.1366.720" timestamp="1593259138070" />
+    <state x="274" y="8" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593926636798">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="274" y="8" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.720@0.0.1366.720" timestamp="1593926636798" />
+    <state x="91" y="91" width="1184" height="538" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593273484203">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="91" y="91" width="1184" height="538" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.720@0.0.1366.720" timestamp="1593273484203" />
+    <state x="440" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1593275323955">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="440" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720@0.0.1366.720" timestamp="1593275323955" />
+    <state x="372" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593931646410">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="372" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.720@0.0.1366.720" timestamp="1593931646410" />
     <state x="431" y="219" width="503" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591696715868">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="431" y="219" width="503" height="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.720@0.0.1366.720" timestamp="1591696715868" />
+    <state x="200" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593885423994">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="200" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.720@0.0.1366.720" timestamp="1593885423994" />
+    <state x="346" y="43" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593275375219">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="346" y="43" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.720@0.0.1366.720" timestamp="1593275375219" />
     <state x="346" y="43" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1592496868044">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="346" y="43" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.720@0.0.1366.720" timestamp="1592496868044" />
-    <state x="409" y="53" key="FileChooserDialogImpl" timestamp="1593192176376">
+    <state x="207" y="0" key="CommitChangelistDialog2" timestamp="1593968790424">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="409" y="53" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1593192176376" />
-    <state width="1310" height="380" key="GridCell.Tab.0.bottom" timestamp="1592845411690">
+    <state x="207" y="0" key="CommitChangelistDialog2/0.0.1366.720@0.0.1366.720" timestamp="1593968790424" />
+    <state x="409" y="53" key="FileChooserDialogImpl" timestamp="1593887732953">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1310" height="380" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1592845411690" />
-    <state width="1310" height="380" key="GridCell.Tab.0.center" timestamp="1592845411690">
+    <state x="409" y="53" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1593887732953" />
+    <state width="1310" height="443" key="GridCell.Tab.0.bottom" timestamp="1593956436685">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1310" height="380" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1592845411690" />
-    <state width="1310" height="380" key="GridCell.Tab.0.left" timestamp="1592845411690">
+    <state width="1310" height="443" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1593956436685" />
+    <state width="1310" height="443" key="GridCell.Tab.0.center" timestamp="1593956436685">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1310" height="380" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1592845411690" />
-    <state width="1310" height="380" key="GridCell.Tab.0.right" timestamp="1592845411690">
+    <state width="1310" height="443" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1593956436685" />
+    <state width="1310" height="443" key="GridCell.Tab.0.left" timestamp="1593956436685">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state width="1310" height="380" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1592845411690" />
+    <state width="1310" height="443" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1593956436685" />
+    <state width="1310" height="443" key="GridCell.Tab.0.right" timestamp="1593956436685">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1310" height="443" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1593956436685" />
     <state width="1292" height="338" key="GridCell.Tab.1.bottom" timestamp="1592076037543">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -149,32 +306,21 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state width="1292" height="338" key="GridCell.Tab.1.right/0.0.1366.720@0.0.1366.720" timestamp="1592076037543" />
-    <state x="34" y="0" key="SettingsEditor" timestamp="1593192542903">
+    <state x="34" y="0" key="SettingsEditor" timestamp="1593866940635">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="34" y="0" key="SettingsEditor/0.0.1366.720@0.0.1366.720" timestamp="1593192542903" />
-    <state x="302" y="139" key="com.intellij.ide.util.TipDialog" timestamp="1592298481777">
+    <state x="34" y="0" key="SettingsEditor/0.0.1366.720@0.0.1366.720" timestamp="1593866940635" />
+    <state x="302" y="139" key="com.intellij.ide.util.TipDialog" timestamp="1593412349407">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="302" y="139" key="com.intellij.ide.util.TipDialog/0.0.1366.720@0.0.1366.720" timestamp="1592298481777" />
+    <state x="302" y="139" key="com.intellij.ide.util.TipDialog/0.0.1366.720@0.0.1366.720" timestamp="1593412349407" />
     <state x="0" y="0" key="new project wizard" timestamp="1592057292082">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="0" y="0" key="new project wizard/0.0.1366.720@0.0.1366.720" timestamp="1592057292082" />
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1591886360731">
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1593524891449">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.720@0.0.1366.720" timestamp="1591886360731" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/service/ProductService.java</url>
-          <line>119</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.720@0.0.1366.720" timestamp="1593524891449" />
   </component>
 </project>

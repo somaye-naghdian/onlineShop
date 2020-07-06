@@ -1,19 +1,22 @@
 package view;
 
-import dao.CustomerDao;
+import dao.UserDao;
 import entity.Address;
-import entity.Customer;
-import org.apache.log4j.LogManager;
+import entity.User;
 import org.apache.log4j.Logger;
-import service.ProductService;
+import service.CustomerService;
+import service.ShoppingCartService;
 import sun.plugin.dom.exception.InvalidAccessException;
 
+import java.util.Objects;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CustomerView {
-    static CustomerDao customerDao = new CustomerDao();
-    static ProductService productService = new ProductService();
-    private static final Logger logger = LogManager.getLogger(CustomerView.class);
+    CustomerService customerService = new CustomerService();
+    static ShoppingCartService shoppingCartService = new ShoppingCartService();
+    private static Logger logger;
     Scanner scanner = new Scanner(System.in);
 
     public void loginCustomer() {
@@ -22,20 +25,12 @@ public class CustomerView {
         String username = scanner.next();
         System.out.println("enter password : ");
         String password = scanner.next();
-        Customer customer = customerDao.passwordValidation(username, password);
-        if (customerDao.passwordValidation(username, password) != null) {
-            System.out.println("successful login");
-            productService.executeMenu(customer);
-            logger.info("Login");
-        } else {
-            System.out.println("customer not found ");
-            return;
-        }
+       customerService.signIn(username,password);
     }
 
-    public Customer customerRegister() {
+    public User customerRegister() {
 
-        CustomerDao customerDao = new CustomerDao();
+        UserDao userDao = new UserDao();
 
         System.out.println("enter  name");
         String name = scanner.nextLine();
@@ -45,8 +40,14 @@ public class CustomerView {
         int age = scanner.nextInt();
         System.out.println("enter  phone number with pattern xxx-xxxxxxx");
         String phone = scanner.next();
+        if (!phoneValidation(phone)) {
+            throw new IllegalArgumentException("your phone pattern is invalid");
+        }
         System.out.println("enter  email");
         String email = scanner.next();
+        if (!checkEmail(email)) {
+            throw new IllegalArgumentException(" your email is invalid ");
+        }
         System.out.println("enter  address->province");
         String province = scanner.next();
         System.out.println("enter  address->city");
@@ -62,11 +63,19 @@ public class CustomerView {
         address.setZipCode(zipCode);
         System.out.println("enter a username Including at least 8 character ");
         String username = scanner.next();
-        if (customerDao.searchDuplicateUserName(username)) {
+        if (!usernameValidation(username)) {
+            throw new IllegalArgumentException("username must include characters and numbers");
+        }
+        if (userDao.searchDuplicateUserName(username)) {
             System.out.println("enter password Including at least 8 character and les than 10");
             String password = scanner.next();
-
-            Customer customer = new Customer();
+            if (!passwordValidation(password)) {
+                throw new IllegalArgumentException("password is not safe");
+            }
+            if (username.equals(password)) {
+                throw new IllegalArgumentException("Username and password must be different");
+            }
+            User customer = new User();
             customer.setName(name);
             customer.setFamily(family);
             customer.setAge(age);
@@ -75,13 +84,58 @@ public class CustomerView {
             customer.setUserName(username);
             customer.setPassword(password);
             customer.setAddress(address);
-            address.setCustomer(customer);
-            customerDao.insertCustomer(customer);
-            logger.info("register");
+            address.setUser(customer);
+            customerService.signUpUser(customer);
             return customer;
         } else {
             throw new InvalidAccessException("username is previously selected ");
         }
+    }
+
+    public boolean phoneValidation(String phone) {
+        Pattern pattern = Pattern.compile("\\d{3}-\\d{7}");
+        Matcher matcher = pattern.matcher(phone);
+        if (matcher.matches()) {
+            return true;
+        }
+        return false;
+    }
+
+    public boolean checkEmail(String email) {
+        char ch = '@';
+        char ch2 = '.';
+        int count = 0;
+        int count2 = 0;
+        if (email.charAt(0) == ch || email.charAt(0) == ch2) {
+            return false;
+        }
+        for (int i = 0; i < email.length(); i++) {
+            if (Objects.equals(email.charAt(i), ch))
+                count++;
+            if (Objects.equals(email.charAt(i), ch2))
+                count2++;
+        }
+        if (count == 0 || count2 == 0) {
+            return false;
+        }
+        return true;
+    }
+
+    public boolean passwordValidation(String password) {
+        if (password.length() < 8 || password.length() > 10) {
+            return false;
+        }
+        return true;
+    }
+
+    public boolean usernameValidation(String username) {
+        if (username.length() < 8 || username.length() > 20) {
+            return false;
+        }
+        String regex = "^[aA-zZ]\\w{5,29}$";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(username);
+        return matcher.matches();
     }
 
 }

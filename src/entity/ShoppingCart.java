@@ -18,8 +18,8 @@ public class ShoppingCart {
     private double totalPrice;
     private int capacity;
     @ManyToOne
-    @JoinColumn(name = "customer_id")
-    private Customer customer;
+    @JoinColumn(name = "user_id")
+    private User user;
     @OneToMany
     List<Products> productList;
 
@@ -32,12 +32,12 @@ public class ShoppingCart {
         this.id = id;
     }
 
-    public Customer getCustomer() {
-        return customer;
+    public User getUser() {
+        return user;
     }
 
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public int getItemCount() {
@@ -80,7 +80,7 @@ public class ShoppingCart {
         return itemCount == that.itemCount &&
                 Double.compare(that.totalPrice, totalPrice) == 0 &&
                 capacity == that.capacity &&
-                Objects.equals(customer, that.customer) &&
+                Objects.equals(user, that.user) &&
                 Objects.equals(productList, that.productList);
     }
 
@@ -92,7 +92,7 @@ public class ShoppingCart {
     @Override
     public String toString() {
         return "ShoppingBasket{" +
-                "customer=" + customer +
+                "user=" + user +
                 ", itemCount=" + itemCount +
                 ", totalPrice=" + totalPrice +
                 ", capacity=" + capacity +
