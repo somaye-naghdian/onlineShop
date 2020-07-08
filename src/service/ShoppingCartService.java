@@ -63,6 +63,9 @@ public class ShoppingCartService {
                             shoppingCart.setItemCount(itemCount);
                             shoppingCart.setProductList(shoppingCartProduct);
                             productStock.put(product, itemCount);
+                            shoppingCartDao.insertShoppingCart(shoppingCart);
+
+
                             logger = LogManager.getLogger(customer.getUserName());
                             logger.info("add");
 
@@ -116,7 +119,6 @@ public class ShoppingCartService {
                         logger = LogManager.getLogger(customer.getUserName());
                         logger.info("PURCHASE");
 
-                        shoppingCartDao.insertShoppingCart(shoppingCart);
                         shoppingCartProduct.clear();
                         shoppingCartDao.deleteFromShoppingCart(shoppingCart);
                         System.out.println(" Thank you ");

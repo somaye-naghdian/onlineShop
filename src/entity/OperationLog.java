@@ -1,10 +1,7 @@
 package entity;
 
-import service.OperationsType;
-
 import javax.persistence.*;
-
-
+import java.sql.Time;
 import java.util.Date;
 import java.util.Objects;
 
@@ -15,6 +12,7 @@ public class OperationLog {
     private Integer id;
     @Temporal(value = TemporalType.DATE)
     private Date date;
+    private Time time;
     private String operation;
     private String authority;
 
@@ -53,15 +51,15 @@ public class OperationLog {
     public void setAuthority(String authority) {
         this.authority = authority;
     }
-/*
-    public User getUser() {
-        return user;
+
+    public Time getTime() {
+        return time;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setTime(Time time) {
+        this.time = time;
     }
-*/
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -70,12 +68,13 @@ public class OperationLog {
         return Objects.equals(id, that.id) &&
                 Objects.equals(date, that.date) &&
                 Objects.equals(operation, that.operation)&&
-                Objects.equals(authority, that.authority);
+                Objects.equals(authority, that.authority)&&
+                Objects.equals(time,that.time);
     }
 
     @Override
     public int hashCode() {
-            return Objects.hash(id, date, operation);
+            return Objects.hash(id, date,time, operation);
     }
 
     @Override

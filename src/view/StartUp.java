@@ -31,7 +31,7 @@ public class StartUp {
                     break;
                 }
                 case 3: {
-                   // adminService.createAdmin();
+                    adminService.createAdmin();
                     adminView.loginAdmin();
                     break;
                 }

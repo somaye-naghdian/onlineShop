@@ -52,6 +52,7 @@ public class UserDao {
             resultUser = (User) iterator.next();
             passwordQuery = resultUser.getPassword();
         }
+        try{
         if (passwordQuery.equals(inputPassword)) {
             for (Iterator iterator = userList.iterator(); iterator.hasNext(); ) {
                 resultUser = (User) iterator.next();
@@ -65,9 +66,9 @@ public class UserDao {
                 resultUser.setAddress(resultUser.getAddress());
             }
         }
-        logger = LogManager.getLogger( resultUser.getUserName());
-        logger.info("login");
-
+        }catch (NullPointerException e){
+            e.printStackTrace();
+        }
         return resultUser;
     }
 

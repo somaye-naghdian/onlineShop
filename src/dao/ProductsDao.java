@@ -2,7 +2,6 @@ package dao;
 
 import entity.Products;
 import org.hibernate.Criteria;
-import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.criterion.ProjectionList;
@@ -73,7 +72,7 @@ public class ProductsDao {
     }
 
     public void updateProductsStock(String name, int itemCount) {
-        List<Products> productsList = null;
+        List<Products> productsList ;
         Products product = null;
         try {
             Session   session = HibernateUtil.getSessionFactory().openSession();

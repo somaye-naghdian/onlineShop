@@ -3,7 +3,6 @@ package view;
 import dao.UserDao;
 import entity.Address;
 import entity.User;
-import org.apache.log4j.Logger;
 import service.CustomerService;
 import service.ShoppingCartService;
 import sun.plugin.dom.exception.InvalidAccessException;
@@ -16,7 +15,7 @@ import java.util.regex.Pattern;
 public class CustomerView {
     CustomerService customerService = new CustomerService();
     static ShoppingCartService shoppingCartService = new ShoppingCartService();
-    private static Logger logger;
+
     Scanner scanner = new Scanner(System.in);
 
     public void loginCustomer() {
